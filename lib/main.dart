@@ -266,22 +266,3 @@ double choix(var nombre){
 }
 
 }
-
-// return showDialog(
-// context: context,
-// builder: (BuildContext context){
-// return SimpleDialog(
-// contentPadding: EdgeInsets.all(25),
-// title: customText("Resultat", Color: (choixHommeEtFemme)? couleurHomme: couleurFemme,),
-// children: [
-// customText("Votre apport en calorie journaliere est de : ", Color: (choixHommeEtFemme)? couleurHomme:couleurFemme,),
-// TextButton(
-// onPressed: (){
-// setState(() {
-// Navigator.pop(context);
-// });
-// },
-// child: customText("Fermer", Color: (choixHommeEtFemme)? couleurHomme: couleurFemme,))
-// ],
-// );
-// });
